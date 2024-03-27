@@ -1,16 +1,35 @@
-### Hi there 👋
+# 👋 Yo there and welcome!
 
-<!--
-**belk1ng/belk1ng** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```ts
+"use strict"
 
-Here are some ideas to get you started:
+class FrontendEngineer {
+    name: string;
+    role: string;
+    language_spoken: string[];
+    tech: string[];
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    constructor() {
+        this.name = "Dmitry Belkin";
+        this.role = "Frontend Engineer";
+        this.language_spoken = ["ru_RU", "en_US"];
+        this.tech = [
+            "TypeScript",
+            "React",
+            "Next",
+            "Redux",
+            "Mobx",
+            "Webpack",
+            "Jest",
+            "SCSS"
+        ];
+    }
+
+    public sayHi() {
+        console.log("Thanks for dropping by, hope you find some of my work interesting.");
+    }
+}
+
+const me = new FrontendEngineer();
+me.sayHi();
+```
