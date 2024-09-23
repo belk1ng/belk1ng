@@ -21,7 +21,8 @@ class FrontendEngineer {
             "Mobx",
             "Webpack",
             "Jest",
-            "SCSS"
+            "SCSS",
+            "StyledComponents"
         ];
     }
 
