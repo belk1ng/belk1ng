@@ -1,13 +1,11 @@
 # 👋 Yo there and welcome!
 
 ```ts
-"use strict"
-
 class FrontendEngineer {
-    name: string;
-    role: string;
-    language_spoken: string[];
-    tech: string[];
+    public name: string;
+    public role: string;
+    public language_spoken: string[];
+    public tech: string[];
 
     constructor() {
         this.name = "Dmitry Belkin";
